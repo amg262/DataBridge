@@ -1,0 +1,139 @@
+@DataBridge_HostAddress = https://localhost:8001/api/v1
+@Token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlNjdhZWE1MS1hNDU3LTQ3ZGItYTU2Ni1kZWE2NTE2MWZjZjEiLCJpYXQiOjE3MTk2MTI5OTcsImlwIjoiOjoxIiwibmJmIjoxNzE5NjEyOTk3LCJleHAiOjE3MjIyMDQ5OTcsImlzcyI6ImVsbHN3b3J0aCIsImF1ZCI6Im1hcmtldGluZ3dlYnRlYW0ifQ.yTOKOYWfrjiTDXQu_xvcpMT-DpCX7L7j4MOT9I7H1Hk
+
+### Set Auth Token
+POST {{DataBridge_HostAddress}}/Auth/Token/Set
+Accept: application/json
+
+### Get Auth Token
+GET {{DataBridge_HostAddress}}/Auth/Token/Get
+Accept: application/json
+
+### Delete Auth Token
+DELETE {{DataBridge_HostAddress}}/Auth/Token/Clear
+Accept: application/json
+
+### Set Auth Token
+POST {{DataBridge_HostAddress}}/Auth/Token/Set
+Accept: application/json
+
+### Get Reports
+GET {{DataBridge_HostAddress}}/Delivra/reports
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Post Reports
+POST {{DataBridge_HostAddress}}/Delivra/reports?startDate=2023-01-01&endDate=2023-12-31
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Put Reports
+PUT {{DataBridge_HostAddress}}/Delivra/reports?startDate=2023-01-01&endDate=2023-12-31
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Delete Reports
+DELETE {{DataBridge_HostAddress}}/Delivra/reports
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Post Segments
+POST {{DataBridge_HostAddress}}/Delivra/segments
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Put Segments
+PUT {{DataBridge_HostAddress}}/Delivra/segments
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Get Segments
+GET {{DataBridge_HostAddress}}/Delivra/segments
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Delete Segments
+DELETE {{DataBridge_HostAddress}}/Delivra/segments
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Post Clickthroughs
+POST {{DataBridge_HostAddress}}/Delivra/clickthroughs?startDate=2023-01-01&endDate=2024-12-31
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Put Clickthroughs
+PUT {{DataBridge_HostAddress}}/Delivra/clickthroughs?startDate=2023-01-01&endDate=2024-12-31
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Get Clickthroughs
+GET {{DataBridge_HostAddress}}/Delivra/clickthroughs
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Delete Clickthroughs
+DELETE {{DataBridge_HostAddress}}/Delivra/clickthroughs
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Post Mailing Approvals
+POST {{DataBridge_HostAddress}}/Delivra/mailingapprovals
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Put Mailing Approvals
+PUT {{DataBridge_HostAddress}}/Delivra/mailingapprovals
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Get Mailing Approvals
+GET {{DataBridge_HostAddress}}/Delivra/mailingapprovals
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Delete Mailing Approvals
+DELETE {{DataBridge_HostAddress}}/Delivra/mailingapprovals
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Post Opens
+POST {{DataBridge_HostAddress}}/Delivra/Opens?startDate=2023-01-01&endDate=2024-12-31
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Put Opens
+PUT {{DataBridge_HostAddress}}/Delivra/Opens?startDate=2023-01-01&endDate=2024-12-31
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Get Opens
+GET {{DataBridge_HostAddress}}/Delivra/Opens
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Delete Opens
+DELETE {{DataBridge_HostAddress}}/Delivra/Opens
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Post Sends
+POST {{DataBridge_HostAddress}}/Delivra/Sends?startDate=2024-04-01&endDate=2024-12-31
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Put Sends
+PUT {{DataBridge_HostAddress}}/Delivra/Sends?startDate=2024-01-01&endDate=2024-12-31
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Get Sends
+GET {{DataBridge_HostAddress}}/Delivra/Sends
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+### Delete Sends
+DELETE {{DataBridge_HostAddress}}/Delivra/Sends
+Accept: application/json
+Authorization: Bearer {{Token}}
+

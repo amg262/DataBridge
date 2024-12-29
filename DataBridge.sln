@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{998009FF-A337-4DC8-9F5C-7E313A586EB7}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		DataBridge.sln = DataBridge.sln
+		DataBridge\DataBridge.csproj = DataBridge\DataBridge.csproj
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CEA4A227-CFA9-49D6-9864-0A680D778091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBridge", "DataBridge\DataBridge.csproj", "{07709FCB-3B63-47DF-8849-C79F15CCFDFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{E01D7D7F-1B21-4A4E-A666-99514CD08E83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{320D9D3A-A212-4751-85E4-53045C5DBBC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E01D7D7F-1B21-4A4E-A666-99514CD08E83} = {CEA4A227-CFA9-49D6-9864-0A680D778091}
+		{320D9D3A-A212-4751-85E4-53045C5DBBC3} = {CEA4A227-CFA9-49D6-9864-0A680D778091}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07709FCB-3B63-47DF-8849-C79F15CCFDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07709FCB-3B63-47DF-8849-C79F15CCFDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07709FCB-3B63-47DF-8849-C79F15CCFDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07709FCB-3B63-47DF-8849-C79F15CCFDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E01D7D7F-1B21-4A4E-A666-99514CD08E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01D7D7F-1B21-4A4E-A666-99514CD08E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01D7D7F-1B21-4A4E-A666-99514CD08E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01D7D7F-1B21-4A4E-A666-99514CD08E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320D9D3A-A212-4751-85E4-53045C5DBBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320D9D3A-A212-4751-85E4-53045C5DBBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320D9D3A-A212-4751-85E4-53045C5DBBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320D9D3A-A212-4751-85E4-53045C5DBBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

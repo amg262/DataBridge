@@ -1,0 +1,37 @@
+﻿:root {
+    --primaryColor: #113775; /* Deep blue - your main color */
+    --secondaryColor: #f4f7fa; /* Light grayish blue for contrast */
+    --accentColor: #ffa500; /* Orange for accents and highlights */
+    --textColor: #333333; /* Dark gray for main text */
+    --textLight: #ffffff; /* White for text on dark backgrounds */
+    --bgMenuActive: #1a4f9e; /* Slightly lighter blue for active menu items */
+    --bgButton: #113775; /* Same as primary for consistency */
+    --bgAside: var(--primaryColor);
+    --bgHover: #0e2d5e; /* Darker blue for hover states */
+    --borderColor: #d1d8e0; /* Light gray for borders */
+    --logoImageUrl: url('https://media.licdn.com/dms/image/C4E0BAQFx_mhzRU6xVA/company-logo_200_200/0/1631375890955?e=1729728000&v=beta&t=CWV7_NW7ewqdQqEdIV9bcg8X6TwhgFvAVTCh4FHZc3k');
+}
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
