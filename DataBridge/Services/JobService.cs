@@ -14,7 +14,7 @@ public class JobService : IHostedService
 {
     private readonly ILogger<JobService> _logger;
     private readonly IHostApplicationLifetime _hostApplicationLifetime;
-    private readonly IServiceProvider _serviceProvider;
+    private readonly IServiceScopeFactory _serviceProvider;
 
     /// <summary>
     /// Initializes a new instance of the JobService class.
@@ -23,7 +23,7 @@ public class JobService : IHostedService
     /// <param name="hostApplicationLifetime">The host application lifetime.</param>
     /// <param name="serviceProvider">The service provider for dependency injection.</param>
     public JobService(ILogger<JobService> logger, IHostApplicationLifetime hostApplicationLifetime,
-        IServiceProvider serviceProvider)
+        IServiceScopeFactory serviceProvider)
     {
         _logger = logger;
         _hostApplicationLifetime = hostApplicationLifetime;
